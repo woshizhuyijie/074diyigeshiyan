@@ -1,8 +1,2 @@
-﻿# 074andorid-hub
-# 074andorid-hub
-# 074andorid-hub
-# 074andorid-hub
-# 074andorid-hub
-# main
-# 074diyigeshiyan
+
 andorid課的第一個實驗，課程是移動軟件開發
