@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-28dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/space_station_icon"></ImageView>
+
+            <ImageView
+                android:layout_width="153dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/rocket_icon"></ImageView>
+
+            <ImageView
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/rover_icon"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="205dp"
+                    android:layout_height="198dp"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="90dp"
+                    android:text="DCA"
+                    android:textSize="20dp"></Button>
+
+                <Button
+                    android:layout_width="201dp"
+                    android:layout_height="198dp"
+                    android:layout_gravity="right"
+                    android:text="MARS"
+                    android:textSize="20dp"></Button>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/double_arrows"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@color/orgin"
+            android:text="One way"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/orgin"
+            android:text="1 Traveller"
+            android:textColor="@color/white"
+            android:textSize="20dp"></TextView>
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:id="@+id/m"
+               android:layout_width="162dp"
+               android:layout_height="129dp"
+               android:layout_gravity="center"
+               android:src="@drawable/galaxy">
+           </ImageView>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/rocket_icon"
+               android:layout_gravity="center"
+               android:layout_marginRight="150dp"
+               ></ImageView>
+       </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="One_One">One_One</string>
+    <string name="One_TWO">One_TWO</string>
+    <string name="One_three">One_three</string>
+    <string name="One_four">One_four</string>
+    <string name="two_four">two_four</string>
+    <string name="two_one">two_one</string>
+    <string name="two_two">two_two</string>
+    <string name="two_three">two_three</string>
+    <string name="three_four">three_four</string>
+    <string name="three_one">three_one</string>
+    <string name="three_two">three_one</string>
+    <string name="three_three">three_three</string>
+    <string name="four_one">two_one</string>
+    <string name="four_two">two_two</string>
+    <string name="four_three">two_three</string>
+    <string name="four_four">two_four</string>
+    <string name="table_layout_4_open">Open..</string>
+    <string name="table_layout_4_open_shortcut">Ctrl-O</string>
+    <string name="table_layout_4_save">Save...</string>
+    <string name="table_layout_4_save_shortcut">Ctrl-Shift-S</string>
+    <string name="table_layout_4_saveas">Save As</string>
+    <string name="table_layout_4_save_t">Ctrl-S</string>
+    <string name="table_layout_4_import">Import</string>
+    <string name="table_layout_4_emport">Emport</string>
+    <string name="table_layout_4_save_ctrl_e">Ctrl-E</string>
+    <string name="table_layout_4_quit">Quit</string>
+    <string name="c_layout_1">1</string>
+    <string name="c_layout_2">2</string>
+    <string name="c_layout_3">3</string>
+    <string name="c_layout_4">4</string>
+    <string name="c_layout_5">5</string>
+    <string name="c_layout_6">6</string>
+    <string name="c_layout_7">7</string>
+    <string name="c_layout_8">8</string>
+    <string name="c_layout_9">9</string>
+    <string name="c_layout_0">0</string>
+    <string name="c_layout_f1">+</string>
+    <string name="c_layout_f2">-</string>
+    <string name="c_layout_f3">=</string>
+    <string name="c_layout_f4">*</string>
+    <string name="c_layout_f5">/</string>
+    <string name="c_layout_f6">.</string>
 </resources>
